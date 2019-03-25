@@ -13,7 +13,7 @@ end
 
 def author_name 
   if self.author 
-    self.author.author.name 
+    self.author.name 
   else 
     nil 
   end 
