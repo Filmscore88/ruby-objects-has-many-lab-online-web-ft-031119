@@ -1,3 +1,4 @@
+require 'pry'
 class Post 
  attr_accessor :title, :author 
  @@all=[]
@@ -11,7 +12,7 @@ def self.all
 end 
 
 def author_name 
-  name
+  binding.pry
 end 
   
 end 
