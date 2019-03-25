@@ -8,6 +8,7 @@ def initialize(name)
 end 
 
 def self.all 
+  binding.pry
   @@all.size 
 end 
 
