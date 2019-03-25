@@ -26,8 +26,6 @@ end
 def self.post_count 
   Post.all.size
 end 
-
-def author_name
-  
+ 
 
 end 
